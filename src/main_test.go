@@ -18,13 +18,13 @@ func TestSum(t *testing.T) {
 }
 
 func TestProduct(t *testing.T) {
-	if multiplay(2, 5) != 10 {
+	if multiply(2, 5) != 10 {
 		t.Fail()
 	}
-	if multiplay(2, 100) != 200 {
+	if multiply(2, 100) != 200 {
 		t.Fail()
 	}
-	if multiplay(222, 3) != 666 {
+	if multiply(222, 3) != 666 {
 		t.Fail()
 	}
 }
